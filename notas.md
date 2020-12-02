@@ -170,3 +170,57 @@ Son antenas de gran longitud donde la configuración de los emparrillados direct
 Son antenas especialmente indicadas para la recepción de TV digital terrestre TDT, pues además de la ganancia conseguida tienen una característica de directividad muy alta, lo que estrecha el haz de recepción permitiendo rechazar señales laterales indeseadas.
 
 Su ancho de banda depende del tamaño de dipolo, pero generalmente están configuradas para la recepción con ganancias, progresivamente más elevadas, para frecuencias altas de la banda UHF.
+
+## Antenas terrestres de radio
+
+Son antenas utilizadas para la captación de señales de radio, analógicas FM o digitales DAB (Digital Audio Broadcasting), emitidas por emisores terrestres.
+
+## Radio analógica FM:
+
+Es un servicio diseñado para la recepción móvil, con potencias de transmisión elevadas, por lo que su recepción fija, para canalizarlas en una red de distribución, carece de criticidad.
+
+La elección de antenas para radio FM es simple, bastando la colocación de una antena circular omnidireccional, salvo casos especiales de recepción donde se requieran antenas directivas.
+
+![antenaam](./antenaam.jpg)
+
+
+Estas antenas tienen un ancho de banda ajustado a las frecuencias utilizadas para las transmisiones de FM, comprendidas entre los 88 y 108 MHz, que corresponden a la banda II de VHF.
+
+![ICTV04_CONT_R175_pic091](./ICTV04_CONT_R175_pic091.jpg)
+
+## Radio digital DAB (Digital Audio Broadcasting)
+
+Al igual que el servicio de radio FM, las emisiones de radio digital DAB han sido diseñadas para la recepción móvil, por lo que su captación desde estaciones estáticas, como edificios, no es una cuestión crítica.
+
+La elección de la antena se ajustará para la captación de la banda III de l VHF, pues es esta banda la reservada para este tipo de transmisiones.
+
+La colocación de la antena será en posición vertical, pues la polarización de la onda electromagnética DAB es también vertical.
+
+![xICTV04_CONT_R176_pic092_mini.jpg](./xICTV04_CONT_R176_pic092_mini.jpg)
+
+
+
+![xICTV04_CONT_R177_pic093_mini_mini.png](./xICTV04_CONT_R177_pic093_mini_mini.png)
+
+## Dispositivos activos del equipo captador de señales: Preamplificadores.
+
+Los preamplificadores son dispositivos que tienen como misión elevar el nivel de señal entregado por la antena sin añadir "ruido", baja figura de ruido, elevando así la relación portadora-ruido (C/N), para que pueda ser tratada por los dispositivos principales de amplificación de cabeza o, en su defecto, para que llegue en condiciones de calidad exigida a la toma de usuario de la red de distribución.
+
+Como dispositivos activos que son, necesitan alimentación, generalmente a 24 VCC, suministrada a través del propio cable coaxial de salida desde una fuente de alimentación interior. Esto es posible, ya que por una línea de transmisión se pueden enviar simultáneamente varias señales de frecuencias diferentes sin que se interfieran, separadas en destino con filtros adecuados, y una única señal de corriente continua, cuya frecuencia es de cero hercios.
+
+![dispositivospreamplificadores.jpg](./dispositivospreamplificadores.jpg)
+
+La onda electromagnética incidente en la antena viene degradada debido a "ruido" acoplado durante la transmisión, lo que origina un determinado valor de relación portadora-ruido, C/N, que incluso con un valor alto de señal útil puede ser tal que invalide la recepción.
+
+De este modo, conviene analizar la señal inducida en la antena mediante un medidor de campo y comprobar que dicha señal posee una buena relación C/N.
+
+Además, los dispositivos activos de cabecera para la adecuación de la señal inducida (amplificadores, conversores, etc.) generan un determinado ruido térmico que se va añadiendo a la señal, disminuyendo la C/N.
+
+La C/N a la salida de un preamplificador, siempre que la C/N de entrada permita amplificar la señal, vendrá dada por la siguiente expresión:
+
+![ICTV04_CONT_R34_pic003_25_mini](./ICTV04_CONT_R34_pic003_25_mini.jpg)
+La C/N mínima para los diferentes servicios terrestres establecida por el RD 346/2011, por el que se aprueba el Reglamento regulador de las infraestructuras comunes de telecomunicaciones, es:
+
+TV Digital (TDT): ≥ 25 dB.
+Radio FM: ≥ 38 dB.
+Radio Digital (DAB): ≥ 18 dB.
