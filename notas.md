@@ -118,5 +118,55 @@ Cuando la ROE es superior a 1 y hay una desadaptación de impedancias, la energ�
 !["ICTV04_CONT_R158_pic074_mini"](./ICTV04_CONT_R158_pic074_mini.jpg)
 
 
+## Antenas terrestres de televisión
 
+Son antenas utilizadas para la captación de señales de televisión emitidas por repetidores terrestres.
 
+Las antenas más empleadas para este servicio son las denominadas antenas Yagi. Estas antenas se ajustan a la descripción de la composición realizadas en el apartado anterior.
+
+Básicamente están constituidas por un dipolo, un emparrillado director en la parte delantera que concentra las señales incidentes en el dipolo, un emparrillado reflector trasero para rechazar señales interferentes y la caja de conexiones.
+
+Como ya se ha especificado, las dimensiones del dipolo, y por lo tanto de la antena, dependen de la frecuencia que se desea recibir. A mayor frecuencia, menor es la longitud de onda y también es menor la longitud del dipolo.
+
+![antena](./antena.jpg).
+
+En la actualidad las emisiones digitales de televisión son todas ellas sobre la banda UHF. La elección de las antenas receptoras de estos servicios es una tarea no trivial, se puede decir que la calidad de la instalación depende tanto de su elección como de la ubicación de estas.
+
+Como contrapartida, la señal digital es una transmisión de umbral, es decir, por debajo de un nivel determinado se deja de recibir el servicio. La ganancia y directividad de la antena deben garantizar una correcta recepción en condiciones marginales.
+
+Las antenas de señales televisión, tienen una ancho de banda amplío, toda la banda UHF generalmente, ya que, como se ha dicho, es aquí donde se concentran este tipo de emisiones.
+
+Las ganancias están en torno a 9 -19 dB, en función de la configuración, teniendo una curva progresiva ascendente, desde valores mínimos a máximos, conforme aumentan las frecuencias de la banda recepcionada.
+
+## Antenas logarítmicas
+
+En este tipo de antenas el emparrillado director lo forman una serie de dipolos de anchura variable, cada uno en resonancia con un canal de TV.
+
+![ICTV04_CONT_R163_pic080_mini](./ICTV04_CONT_R163_pic080_mini.jpg)
+
+Una antena logarítmica periódica es una antena de banda ancha, con varios elementos activos unidireccionales, cuyas distancias mutuas y frecuencia de resonancia se hallan en progresión geométrica, capaz de recepcionar señales de TV en la banda VHF y UHF y señales de radio FM.
+
+El dipolo activo receptor cambia continuamente dependiendo de la frecuencia, con frecuencias bajas son los elementos más largos los resonantes, y el resto de los elementos actúan como directores. En las frecuencias altas, son los elementos más cortos los que recpecionan y los otros elementos (más largos) actúan como directores.
+
+La ganancia de este tipo de antenas varían entre los 8,5 y 10 dB.
+
+## Antenas panel
+
+Las antenas panel se diseñan para aquellos casos en que se recepcione señal desde varios repetidores y en direcciones cercanas.
+![ICTV04_CONT_R166_pic083_mini](./ICTV04_CONT_R166_pic083_mini.gif)
+
+En estos casos la directividad de la instalación receptora no es un parámetro importante, Por lo que no habrá rechazo lateral selectivo de señales rebotadas e interferentes.
+
+Este tipo de antenas están formadas por un número par de dipolos (2 o 4) y un panel reflector. Las recepciones de los dipolos se suman consiguiendo ganancias de aproximadamente 14 dB.
+
+Estas antenas poseen un ancho de banda grande, pudiendo recepcionar la banda UHF completa
+
+## Antenas de elevada ganancia
+
+Son antenas de gran longitud donde la configuración de los emparrillados directores se ha modificado, con una estructura en "V" disponiendo de dos o más parrillas, de tal forma que se consigue aumentar la ganancia final.
+
+![ICTV04_CONT_R169_pic085_mini](./ICTV04_CONT_R169_pic085_mini.jpg)
+
+Son antenas especialmente indicadas para la recepción de TV digital terrestre TDT, pues además de la ganancia conseguida tienen una característica de directividad muy alta, lo que estrecha el haz de recepción permitiendo rechazar señales laterales indeseadas.
+
+Su ancho de banda depende del tamaño de dipolo, pero generalmente están configuradas para la recepción con ganancias, progresivamente más elevadas, para frecuencias altas de la banda UHF.
