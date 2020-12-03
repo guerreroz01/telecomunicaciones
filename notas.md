@@ -202,6 +202,9 @@ La colocación de la antena será en posición vertical, pues la polarización d
 
 ![xICTV04_CONT_R177_pic093_mini_mini.png](./xICTV04_CONT_R177_pic093_mini_mini.png)
 
+<br>
+<br>
+
 ## Cómo funciona una antena Yagi-Uda
 
 En virtud del principio de reciprocidad, se puede demostrar que las propiedades (impedancia, ganancia, etc.) de una antena cualquiera son las mismas tanto en emisión como en recepción. Como es más fácil de comprender el funcionamiento de una antena Yagi-Uda en transmisión que en recepción, comenzaremos por una antena en transmisión.
@@ -219,3 +222,41 @@ Generalmente se ponen uno o dos reflectores y uno o varios directores. Se calcul
 Eléctricamente, el costo de esta directividad es una disminución de la parte resistiva de la impedancia de la antena. Con una misma corriente de alimentación, el campo radiado es más débil. Se compensa este inconveniente remplazando el dipolo alimentado por un dipolo doblado.
 
 Para la antena en recepción, la fase y la amplitud de las corrientes inducidas en los elementos por el campo incidente y los demás elementos hace que la corriente inducida en el elemento alimentado (ahora conectado al receptor) sea máxima para los campos que vienen de delante y mínima para los campos que vienen de detrás.
+
+<br>
+<br>
+
+# Amplificador 
+
+## Tipos 
+    1. Monocanal.
+    2. Banda ancha.
+
+
+## Caracteristicas técnicas.
+
+Ganancia del amplificador en dB: ni muy alta ni muy baja.
+
+Factor de ruido o figura de ruido.
+
+Banda de frecuencia pasante.
+
+Impedancia de entrada y salida 
+
+Tensión máxima de entrada
+
+Tensión máxima de salida
+
+<br>
+<br>
+
+# Preamplificador de antena
+
+
+[instalacion de antena TDT](https://elcajondelelectronico.com/instalacion-antena-tdt/)
+
+<br>
+<br>
+
+# Amplificadores de mastil
+
