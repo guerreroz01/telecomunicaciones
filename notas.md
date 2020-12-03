@@ -260,3 +260,54 @@ Tensión máxima de salida
 
 # Amplificadores de mastil
 
+buscar
+
+
+<br>
+<br>
+
+# Amplificadores monocanal
+
+buscar tipos
+
+
+<br>
+<br>
+
+# Central Amplificadora
+
+Los niveles de señal tienen que ser de un maximo de 6db
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
