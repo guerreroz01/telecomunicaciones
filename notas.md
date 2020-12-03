@@ -202,25 +202,20 @@ La colocación de la antena será en posición vertical, pues la polarización d
 
 ![xICTV04_CONT_R177_pic093_mini_mini.png](./xICTV04_CONT_R177_pic093_mini_mini.png)
 
-## Dispositivos activos del equipo captador de señales: Preamplificadores.
+## Cómo funciona una antena Yagi-Uda
 
-Los preamplificadores son dispositivos que tienen como misión elevar el nivel de señal entregado por la antena sin añadir "ruido", baja figura de ruido, elevando así la relación portadora-ruido (C/N), para que pueda ser tratada por los dispositivos principales de amplificación de cabeza o, en su defecto, para que llegue en condiciones de calidad exigida a la toma de usuario de la red de distribución.
+En virtud del principio de reciprocidad, se puede demostrar que las propiedades (impedancia, ganancia, etc.) de una antena cualquiera son las mismas tanto en emisión como en recepción. Como es más fácil de comprender el funcionamiento de una antena Yagi-Uda en transmisión que en recepción, comenzaremos por una antena en transmisión.
 
-Como dispositivos activos que son, necesitan alimentación, generalmente a 24 VCC, suministrada a través del propio cable coaxial de salida desde una fuente de alimentación interior. Esto es posible, ya que por una línea de transmisión se pueden enviar simultáneamente varias señales de frecuencias diferentes sin que se interfieran, separadas en destino con filtros adecuados, y una única señal de corriente continua, cuya frecuencia es de cero hercios.
+Como ya se ha mencionado, una antena Yagi-Uda está formada por un elemento alimentado (conectado al emisor o al receptor) formado por un simple dipolo o un dipolo doblado llamado también "radiador" de manera inapropiada, ya que en la antena Yagi-Uda todos los elementos irradian de manera comparable. Además de ese elemento, la antena tiene uno o varios elementos aislados llamados, injustamente, elementos parásitos. La corriente que circula en el elemento alimentado irradia un campo electromagnético, el cual induce corrientes en los "elementos parásitos" de la antena. Las corrientes inducidas en esos elementos irradian también campos electromagnéticos que a su vez inducen corrientes en los demás. Finalmente la corriente que circula en cada uno de los elementos es el resultado de la interacción entre todos los elementos. El elemento alimentado. La fase de la corriente que circula en el elemento parásito dependerá de la distancia entre los dos elementos y de la longitud y diámetro de este último. La amplitud también dependerá de lo mismo pero mucho menos y será, de todas maneras, de la misma magnitud que la corriente del elemento alimentado.
 
-![dispositivospreamplificadores.jpg](./dispositivospreamplificadores.jpg)
+Coloquemos el elemento parásito delante del elemento alimentado a una distancia de {\displaystyle \scriptstyle {\lambda \over 10}}\scriptstyle{\lambda\over 10} (donde {\displaystyle \scriptstyle {\lambda }}\scriptstyle {\lambda} es la longitud de onda) y ajustemos su longitud para que la corriente tenga un retardo de fase de {\displaystyle \scriptstyle {180-{360 \over 10}\,=\,144^{\circ }}}\scriptstyle {180-{360 \over 10}\,=\,144^\circ}. En ese caso, el cálculo muestra que la corriente en el elemento parásito es 1,19 veces la corriente en el elemento alimentado. El campo radiado hacia atrás será la suma del campo producido por el elemento alimentado más el campo producido por el elemento parásito. Pero este último ha sido emitido con un retardo de 144° y como debe recorrer una distancia adicional de {\displaystyle \scriptstyle {\lambda \over 10}}\scriptstyle{ {\lambda\over 10}} sufrirá un retardo adicional de 36°, lo que hace que, hacia atrás, los campos emitidos por los dos elementos estarán a 180° en oposición de fase y se anulan. En cambio, hacia adelante, el campo emitido por el elemento parásito, ganará 36° (en lugar de perderlos) y su retardo de fase no será más que {\displaystyle \scriptstyle {144-36=108^{\circ }}}\scriptstyle{144-36=108^\circ}. La suma de los dos campos será máxima.
 
-La onda electromagnética incidente en la antena viene degradada debido a "ruido" acoplado durante la transmisión, lo que origina un determinado valor de relación portadora-ruido, C/N, que incluso con un valor alto de señal útil puede ser tal que invalide la recepción.
+En el caso particular de este ejemplo, la amplitud E del campo eléctrico de la onda electromagnética radiada hacia adelante en una dirección {\displaystyle \scriptstyle {\theta }}\scriptstyle {\theta } es {\displaystyle \scriptstyle {E_{1}{\sqrt {2{,}42+2{,}38\cos \left({2\pi \over 10}\cos \theta -{8\pi \over 10}\right)}}}}\scriptstyle{ E_1\sqrt{2{,}42 + 2{,}38\cos\left({2\pi\over 10}\cos\theta-{8\pi\over 10}\right)}} donde {\displaystyle \scriptstyle {E_{1}}}\scriptstyle {E_1} es el campo producido por el elemento alimentado si estuviese solo. La ganancia es de 8,96 dBi.
 
-De este modo, conviene analizar la señal inducida en la antena mediante un medidor de campo y comprobar que dicha señal posee una buena relación C/N.
+Este tipo de elemento parásito, situado delante el elemento alimentado y que refuerza el campo hacia adelante, se llama director. Los elementos situados detrás y que refuerzan el campo hacia adelante se llaman reflectores. Pero no hay que confundirlos con las superficies o rejas reflectoras utilizadas en otros tipos de antenas.
 
-Además, los dispositivos activos de cabecera para la adecuación de la señal inducida (amplificadores, conversores, etc.) generan un determinado ruido térmico que se va añadiendo a la señal, disminuyendo la C/N.
+Generalmente se ponen uno o dos reflectores y uno o varios directores. Se calculan las posiciones y las dimensiones de manera que las fases de las corrientes resultantes sean tales que la adición de los campos sea mínima hacia atrás y máxima hacia adelante.
 
-La C/N a la salida de un preamplificador, siempre que la C/N de entrada permita amplificar la señal, vendrá dada por la siguiente expresión:
+Eléctricamente, el costo de esta directividad es una disminución de la parte resistiva de la impedancia de la antena. Con una misma corriente de alimentación, el campo radiado es más débil. Se compensa este inconveniente remplazando el dipolo alimentado por un dipolo doblado.
 
-![ICTV04_CONT_R34_pic003_25_mini](./ICTV04_CONT_R34_pic003_25_mini.jpg)
-La C/N mínima para los diferentes servicios terrestres establecida por el RD 346/2011, por el que se aprueba el Reglamento regulador de las infraestructuras comunes de telecomunicaciones, es:
-
-TV Digital (TDT): ≥ 25 dB.
-Radio FM: ≥ 38 dB.
-Radio Digital (DAB): ≥ 18 dB.
+Para la antena en recepción, la fase y la amplitud de las corrientes inducidas en los elementos por el campo incidente y los demás elementos hace que la corriente inducida en el elemento alimentado (ahora conectado al receptor) sea máxima para los campos que vienen de delante y mínima para los campos que vienen de detrás.
