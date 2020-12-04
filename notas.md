@@ -278,13 +278,68 @@ buscar tipos
 
 Los niveles de señal tienen que ser de un maximo de 6db
 
+<br>
+<br>
+
+# Lineas de distribución
+
+Es un medio por el que se pueden transmitir ondas electromagneticas
+
+Las mas utilizadas son :
+
+1. El cable coaxial
+2. La fibra optica.
+
+<br>
+
+## Cable coaxial -- 
+
+El cable coaxial, coaxil, coaxcable o coax,1​ creado en la década de 1930, es un cable utilizado para transportar señales eléctricas de alta frecuencia que posee dos conductores concéntricos, uno central, llamado núcleo, encargado de llevar la información, y uno exterior, de aspecto tubular, llamado malla, blindaje o trenza, que sirve como referencia de tierra y retorno de las corrientes. Entre ambos se encuentra una capa aislante dieléctrica, de cuyas características dependerá principalmente la calidad del cable. Todo el conjunto suele estar protegido por una cubierta aislante (también denominada camisa exterior).
+
+El conductor central puede estar constituido por un alambre sólido o por varios hilos retorcidos de cobre; mientras que el exterior puede ser una malla trenzada, una lámina enrollada o un tubo corrugado de cobre o aluminio. En este último caso resultará un cable semirrígido.
+
+Debido a la necesidad de manejar frecuencias cada vez más altas y a la digitalización de las transmisiones, en años recientes se ha sustituido paulatinamente el uso del cable coaxial por el de fibra óptica, en particular para distancias superiores a varios kilómetros, porque el ancho de banda de esta última es muy superior.
+
+La elección del diseño afecta al tamaño, flexibilidad y las propiedades eléctricas del cable. Un cable coaxial consta de un núcleo de hilo de cobre rodeado por un aislante (o dieléctrico), un apantallamiento o blindaje de metal trenzado y una cubierta externa.
+
+El núcleo de un cable coaxial transporta señales electrónicas que constituyen la información. Este núcleo puede ser sólido (normalmente de cobre) o de hilos. Rodeando al núcleo existe una capa aislante dieléctrica que la separa de la malla de hilo. La malla de hilo trenzada actúa como masa, y protege al núcleo del ruido eléctrico y de la distorsión que proviene de los hilos adyacentes. El núcleo y la malla deben estar separados uno del otro. Si llegaran a tocarse, se produciría un cortocircuito, y el ruido o las señales que se encuentren perdidas en la malla, atravesarían el hilo de cobre.
+
+El apantallamiento tiene que ver con el trenzado o malla de metal (u otro material) que rodea los cables. El apantallamiento protege los datos que se transmiten, absorbiendo el ruido, de forma que no pasa por el cable y no existe distorsión de datos. Al cable que contiene una lámina aislante y una capa de apantallamiento de metal trenzado se le llama cable apantallado doble. Para grandes interferencias, existe el apantallamiento cuádruple. Este apantallamiento consiste en dos láminas aislantes, y dos capas de apantallamiento de metal trenzado.
+
+Un cortocircuito ocurre cuando dos hilos o un hilo y una tierra se ponen en contacto. Este contacto causa un flujo directo de corriente (o datos) en un camino no deseado. En el caso de una instalación eléctrica común, un cortocircuito causará el chispazo y el fundido del fusible o del interruptor automático. Con dispositivos electrónicos que utilizan bajos voltajes, el efecto es menor, y casi no se detecta. Estos cortocircuitos de bajo voltaje causan un fallo en el dispositivo y lo normal es que se pierdan los datos que se estaban transfiriendo.
+
+Una cubierta exterior no conductora (normalmente hecha de goma, teflón o plástico) rodea todo el cable para evitar las posibles descargas eléctricas.
+
+El cable coaxial es más resistente a interferencias y atenuación que el cable de par trenzado; por esto hubo un tiempo en que fue el más usado.
+
+La malla de hilos absorbe las señales electrónicas perdidas, de forma que no afecten a los datos que se envían a través del cable interno. Por esta razón, el cable coaxial es una buena opción para grandes distancias y para soportar de forma fiable grandes cantidades de datos con un sistema sencillo.
+
+En los cables coaxiales los campos debidos a las corrientes que circulan por el interno y externo se anulan mutuamente.
+
+## Caracteristicas más importantes 
+1. Capacitancia
+2. Impedancia
+3. Velocidad de propagación
 
 
+<br>
+<br>
+
+# Fibra óptica
+
+buscar los modos que tiene la fibra
+
+1. Multimodo
+2. Monomodo
 
 
+La fibra óptica es una fibra flexible, transparente, hecha al embutir o extruir vidrio (sílice) o plástico en un diámetro ligeramente más grueso que el de un cabello humano.1​ Las fibras ópticas se utilizan más comúnmente como un medio para transmitir luz entre dos puntas de una fibra y tienen un amplio uso en las comunicaciones por fibra óptica, donde permiten la transmisión en distancias y en un ancho de banda (velocidad de datos) más grandes que los cables eléctricos. Se usan fibras en vez de alambres de metal porque las señales viajan a través de ellas con menos pérdida; además, las fibras son inmunes a la interferencia electromagnética, un problema del cual los cables de metal sufren ampliamente.2​ Las fibras también se usan para la iluminación e imaginería, y normalmente se envuelven en paquetes para introducir o sacar luz de espacios reducidos, como en el caso de un fibroscopio.3​ Algunas fibras diseñadas de manera especial se usan también para una amplia variedad de aplicaciones diversas, algunas de ellas son los sensores de fibra óptica y los láseres de fibra.4​
 
+Típicamente, las fibras ópticas tienen un núcleo rodeado de un material de revestimiento transparente con un índice de refracción más bajo. La luz se mantiene en el núcleo debido al fenómeno de reflexión interna total que causa que la fibra actúe como una guía de ondas.5​ Las fibras que permiten muchos caminos de propagación o modos transversales se llaman fibras multimodo (MM), mientras que aquellas que permiten solo un modo se llaman fibras monomodo (SM). Las fibras multimodo tienen generalmente un diámetro de núcleo más grande6​ y se usan para enlaces de comunicación de distancia corta y para aplicaciones donde se requiere transmitir alta potencia. Las fibras monomodo se utilizan para enlaces de comunicación más grandes que 1000 metros.7​
 
+Ser capaces de unir fibras ópticas con pérdida baja es importante en la comunicación por fibra óptica.8​ Esto es más complejo que unir cable eléctrico e involucra una adhesión cuidadosa de las fibras, la alineación precisa de los núcleos de las fibras y el acoplamiento de estos núcleos alineados. Para las aplicaciones que necesitan una conexión permanente se hacen empalmes de fusión. En esta técnica, se usa un arco eléctrico para fundir los extremos y así unirlos. Otra técnica común es el empalme mecánico, donde el extremo de las fibras se mantiene en contacto por medio de una fuerza mecánica. Las conexiones temporales o semi-permanentes se hacen por medio de un conector de fibra óptica especializado.9​
 
+El campo de la ciencia aplicada y la ingeniería encargado del diseño y la aplicación de las fibras ópticas se llama óptica de fibras. El término fue acuñado por el físico hindú Narinder Singh Kapany, quien es ampliamente reconocido como el padre de la óptica de fibras.10​
 
 
 
